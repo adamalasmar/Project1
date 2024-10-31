@@ -16,7 +16,11 @@ body {
     background-position: center;
 }
 
-
+.login-info {
+    position: absolute;
+    top: 13px; 
+    left: 13px; 
+}
 
 .image-links:hover {
     background-color: grey;
@@ -29,9 +33,6 @@ body {
     transition-duration: 2s;
 }
     
-
-
-
 
 .image-links{
     margin-left: 100px;
