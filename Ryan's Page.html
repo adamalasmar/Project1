@@ -64,10 +64,44 @@
     <p> <I> Any form of Media </I> Show us who you are! Show us your work! </p>
     </div>
 
+    <form action="Upload Media" method="post" enctype="multipart/form-data">
+        <label for="fileUpload">Choose a file:</label>
+        <input type="file" id="fileUpload" name="fileUpload">
+    </form>
+
+    <br></br>
+
+    <button type="submit">Upload</button>
+
+    <br></br>
+
+
+
     <div id="Submit Payment and Confirm Upload.">
         <h2> Input card information below.</h2>
         </div>
 
+<label for="Credit">
+<input type="checkbox" name="Courses" value="Credit" id="Credit"> Credit
+</label>
+            
+            
+<label for="Debit">
+<input type="checkbox" name="Debit" value="Debit" id="Debit"> Debit
+</label>
 
+<br></br>
+
+<form action=" ">
+ <input type="" name="Card Number" placeholder="Card Number" class="Input Field">
+<form action=" ">
+<input type="text" name="CCV" placeholder="CCVV" class="Input Field">
+ <form action=" ">
+ <input type="text" name="Card holder" placeholder="Card holder" class="Input Field">
+<br></br>
+
+<form action="/submit" method="post">
+<button type="submit">Submit Payment and Information</button>
+</form>
 
 </body>
