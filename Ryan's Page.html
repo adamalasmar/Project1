@@ -15,34 +15,93 @@
 </head>
 
 <body>
-
+    
 <header>
-<h1> Ryan Ruggiero </h1>
-<p class="headerintro"> Fair Lawn, NJ | phone: 201-708-3461 |<a href="rgr28@njit.edu"> email: rgr28@njit.edu </a> </p>
+<h1> Time to make your own! </h1>
+<p class="headerintro"> Now that you've seen what we have to offer, feel free to submit your own information for your own personalized resume! | Please use this link if you have additional concerns: <a href="arthelp@gmail.com"> email: arthelp@gmail.com </a> </p>
 </header>
 
-<div id="Education">
-    <h2>Education</h2>
-    <p> <I>Current Education: </I> New Jersey Institute of Technology | Studying a B.A in Architecture </p>
-    <p> <I> Previous Education:</i> Montclair State University | Studied business before transferring </p>
+<div id="Tell us about yourself!">
+    <h2>Name? Contact info?</h2>
+    <p> <I> Full Name </I> Let people know who you are! </p>
+    <p> <I> Contacts</i> Email, or phone number. Or both! </p>
     </div>
 
-    <div id="Work Experience">
-        <h2>Work Experience</h2>
-        <p> <I> Current Occupation: </I> Delivery Driver at Market Basket, Franklin Lakes NJ </p>
-        <p> <I> Previous Occupation:</i> Tire Technician at Mavis Discount Tire, Ridgewood NJ </p>
-        <p> <I> Previous Occupation:</i> Food Runner at The Craftsman, Fair lawn, NJ</p>
-        <p> <I> Previous Occupation:</i> Landscaper at S.R Landscaping, Fair Lawn NJ </p>
-        </div>    
+    <form action=" ">
+    <input type="text" name="Full Legal Name" placeholder="Enter Legal Name" class="Input Field">
+<br></br>
+        
+    <form action=" ">
+    <input type="text" name="Enter Phone Number" placeholder="Enter Phone Number" class="Input Field">
+    <br></br>
+        
+<form action=" ">
+    <input type="Email" name="Enter Email" placeholder="Enter Email" class="Input Field">
 
-        <div id="Skills">
-            <h2> Skills </h2>
-        <p> -Experience in cleaning and hands-on labor-</p>
-        <p> -Experience working with customer service-</p>
-        <p>  -Hands-on technical skills-</p>
-        <P> -Communication Skills- </P>
-        <p>Organizational and time management </p>
-            </div>  
+<div id="Work Experience">
+    <h2>Work Experience</h2>
+    <p> <I> Occupations: </I> Wether present or old, give us all of your work experience! If none, enter N/A. </p>
+    
+</div>    
 
+<textarea name="Work Experience" id="feedback" placeholder="Please add previous work experience"></textarea>
+
+
+    <div id="Additional Information">
+    <h2> Add more to express yourself! </h2>
+    <p> -Any volunteer jobs-</p>
+    <p> -Activities or Clubs-</p>
+    <p>  -Hobbies-</p>
+    <P> -Achievements- </P>
+    <p> Just tell us more about you! </p>
+    </div>  
+
+  
+    <textarea name="Additional Info" id="More Information" placeholder="Please add additional information about yourself!"></textarea>          
+
+    <div id="Finally, add any pictures!">
+    <h2>Picture of you! Picture of your work! Anything you'd like to share.</h2>
+    <p> <I> Any form of Media </I> Show us who you are! Show us your work! </p>
+    </div>
+
+    <form action="Upload Media" method="post" enctype="multipart/form-data">
+        <label for="fileUpload">Choose a file:</label>
+        <input type="file" id="fileUpload" name="fileUpload">
+    </form>
+
+    <br></br>
+
+    <button type="submit">Upload</button>
+
+    <br></br>
+
+
+
+    <div id="Submit Payment and Confirm Upload.">
+        <h2> Input card information below.</h2>
+        </div>
+
+<label for="Credit">
+<input type="checkbox" name="Courses" value="Credit" id="Credit"> Credit
+</label>
+            
+            
+<label for="Debit">
+<input type="checkbox" name="Debit" value="Debit" id="Debit"> Debit
+</label>
+
+<br></br>
+
+<form action=" ">
+ <input type="" name="Card Number" placeholder="Card Number" class="Input Field">
+<form action=" ">
+<input type="text" name="CCV" placeholder="CCVV" class="Input Field">
+ <form action=" ">
+ <input type="text" name="Card holder" placeholder="Card holder" class="Input Field">
+<br></br>
+
+<form action="/submit" method="post">
+<button type="submit">Submit Payment and Information</button>
+</form>
 
 </body>
