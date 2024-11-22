@@ -4,7 +4,8 @@
     padding-left: 20px;
     padding-right: 20px;
     padding: 50px;
-    background-color: rgb(128, 128, 128)
+    border-radius: 10px;
+    background-color: #919191
 }
 .about{
     text-align: center;
@@ -29,6 +30,17 @@
     margin-left: 50px
 }
 
+.photo5{
+    margin-left: 150px
+}
+
+.photo6{
+    margin-left: 200px
+}
+
+.photo100px{
+    margin-left: 100px
+}
 .project1{
     margin-block-start: auto;
 }
@@ -39,21 +51,29 @@
 }
 
 .P1B{
-    margin-left: 540px;
+    margin-left: 600px;
     display: inline;
 }
 .P1C{
-    margin-left: 550px;
+    margin-left: 350px;
     display: inline;
 }
 
 
 .P2B{
-    margin-left:490px;
+    margin-left:590px;
     display: inline;
 }
 
 .P2C{
+    margin-left:350px;
+    display: inline;
+}
+.P2D{
+    margin-left:450px;
+    display: inline;
+}
+.P3C{
     margin-left:250px;
     display: inline;
 }
@@ -65,5 +85,30 @@
     padding-left: 20px;
     padding-right: 20px;
     padding: 50px;
-    background-color: rgb(128, 128, 128)
+    background-color: rgb(131, 131, 131)
 }
+
+.project {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description{
+    margin-left: 50px;
+}
+
+.group{
+  
+    margin-bottom: 20px;
+    border-radius: 10px;
+ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(193, 193, 193, 0.853)
+}
+
