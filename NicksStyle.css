@@ -5,8 +5,13 @@
     padding-right: 20px;
     padding: 50px;
     border-radius: 10px;
-    background-color: #919191
+    background-color: #000000;
+   color: white;
 }
+.white{
+    text-decoration: white;
+}
+
 .about{
     text-align: center;
     font-display: bold;
@@ -14,32 +19,53 @@
 
 .photo1{
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     display: inline-block;
+    padding: 10px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 10px;
 }
 .photo2{
     margin-left: 75px;
+    padding: 10px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
 }
 
 .photo3{
     margin-left: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 10px;
 }
 
 .photo4{
-    margin-left: 50px
+    margin-left: 50px;
+    padding: 10px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 10px;
 }
 
 .photo5{
-    margin-left: 150px
+    margin-left: 150px;
+    padding: 10px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 10px;
 }
 
 .photo6{
-    margin-left: 200px
+    margin-left: 200px;
+    padding: 10px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 10px;
 }
 
 .photo100px{
-    margin-left: 100px
+    margin-left: 100px;
+    padding: 10px;
+    background-color:  rgb(189, 189, 189);
+    border-radius: 10px;
 }
 .project1{
     margin-block-start: auto;
@@ -94,7 +120,7 @@
     border-radius: 10px;
     overflow: hidden;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
@@ -106,9 +132,37 @@
   
     margin-bottom: 20px;
     border-radius: 10px;
- 
-    padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(193, 193, 193, 0.853)
+    background-color: rgba(225, 225, 225, 0.853)
+}
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
 }
 
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.Title{
+    text-align: center;
+    color: white;
+    text-decoration-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 50px;
+    background-color: rgb(0, 0, 0)
+}
